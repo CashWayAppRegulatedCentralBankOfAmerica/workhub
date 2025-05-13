@@ -20,36 +20,38 @@
     </div>
   </header>
 
-  <!-- Dashboard Summary Bar (Replaces Hero Section) -->
-<section class="bg-green-50 py-8 shadow-md">
-  <div class="container mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between space-y-6 md:space-y-0">
-    
-    <!-- User Info -->
-    <div class="space-y-1">
-      <h2 class="text-2xl font-semibold text-green-700">Welcome back!</h2>
-      <p class="text-sm text-gray-600">Account No: <span class="font-medium text-gray-800">1234567890</span></p>
-      <p class="text-sm text-gray-600">Status: <span class="font-medium text-green-600">Active</span></p>
-    </div>
+  <!-- Dashboard Summary Bar (Full Height Replacement of Hero Section) -->
+<section class="bg-green-100 py-20">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
 
-    <!-- Balances -->
-    <div class="flex space-x-6 text-sm text-gray-800">
-      <div>
-        <p class="text-gray-600">Balance</p>
-        <p class="font-semibold text-lg">$1,500.00</p>
+      <!-- User Info -->
+      <div class="text-center md:text-left">
+        <h2 class="text-4xl font-bold text-green-800 mb-2">Welcome Back!</h2>
+        <p class="text-lg text-gray-700">Account No: <span class="font-semibold text-gray-900">1234567890</span></p>
+        <p class="text-lg text-gray-700">Status: <span class="font-semibold text-green-600">Active</span></p>
       </div>
-      <div>
-        <p class="text-gray-600">Credit Balance</p>
-        <p class="font-semibold text-lg">$120.00</p>
-      </div>
-    </div>
 
-    <!-- Action Buttons -->
-    <div class="flex space-x-4">
-      <button class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition">Deposit</button>
-      <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Withdraw</button>
-      <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition">Buy Credits</button>
+      <!-- Balances -->
+      <div class="text-center space-y-2">
+        <div>
+          <p class="text-gray-600 text-sm">Main Balance</p>
+          <p class="text-2xl font-semibold text-gray-800">$1,500.00</p>
+        </div>
+        <div>
+          <p class="text-gray-600 text-sm">Credit Balance</p>
+          <p class="text-2xl font-semibold text-gray-800">$120.00</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col md:flex-row gap-4">
+        <button class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">Deposit</button>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">Withdraw</button>
+        <button class="bg-yellow-500 text-white px-6 py-3 rounded-lg shadow hover:bg-yellow-600 transition">Buy Credits</button>
+      </div>
+
     </div>
-    
   </div>
 </section>
 
